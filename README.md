@@ -1,2 +1,2 @@
-# PHYS442
-A repo to store and share the code I wrote for the PHYS442 papers. 
+# For my class 
+A repo to store and share the code I wrote for the papers I wrote. 
