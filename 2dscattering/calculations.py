@@ -12,17 +12,17 @@ I = number_of_shots_per_turn / (gun_distance/gun_turns)
 #CALCULATION OF R VIA LINEFIT  
 
 # Prepare the data for linefit
-data = np.loadtxt('/Users/Hazal/Desktop/analysis/data.txt')
-N_i= data[:]
+#data = np.loadtxt('/Users/Hazal/Desktop/analysis/rawdata.txt')
+#N_i= data[:]
 
-print(len(N_i))
-print(N_i)
-thetadegrees = np.array([20*i for i in range(1,len(N_i)+1)])
-thetadegrees = np.array([ 40 , 60 , 80, 100, 120 ,140 ,160,200 ,220 ,240, 260, 280 ,310])
+#print(len(N_i))
+#print(N_i)
+#thetadegrees = np.array([20*i for i in range(1,len(N_i)+1)])
+#thetadegrees = np.array([ 40 , 60 , 80, 100, 120 ,140 ,160,200 ,220 ,240, 260, 280 ,310])
 
-thetas = np.deg2rad(thetadegrees)
-print(thetas)
-print(len(thetas))
+#thetas = np.deg2rad(thetadegrees)
+#print(thetas)
+#print(len(thetas))
 
 thetasdegrees = [40,60,80,100,120,140,160,200,220,240,260,280,300,320]
 shots =         [4 ,18,23,25 ,36 ,35 ,84 ,78 ,29,38,37,34,37,27]
@@ -69,9 +69,13 @@ r_cal =  (2 * S )/ ( I* np.deg2rad(20) )
 print(r_cal)
 
 # CALCULATION OF R DIRECTLY
-r_dir = np.sum(N_i)/(I*2)
-print(r_dir)
+N_i =         [4 ,18,23,25 ,36 ,35 ,84 ,78 ,29,38,37,34,37,27,10,64,72]
+print('kfmdskfmds',len(N_i))
 
+r_dir = np.sum(N_i)/(I*2)
+print('dir cal',r_dir)
+sigma_r_dir = (((1/I)**2)*np.sum(np.sqrt(N_i))**2 + np.sum(N_i)**2/(I**4)*2.4**2)
+print('sigma dir',sigma_r_dir)
 
 #ERROR CALCULATIONS
 
@@ -80,5 +84,10 @@ error = (2.7 - 2.21) / 0.20
 print(error)
 
 #Error of r_direct
-error = (2.7 - 1.609) / 0.2
-print(error)
+
+error = 2.7 - r_dir /sigma_r_dir 
+print('error' ,error)
+
+
+raw_data = np.array([39, 5, 23, 23, 17, 53, 67, 54, 49, 62, 52, 44, 52, 43, 32, 13, 72])
+print(len(raw_data))
