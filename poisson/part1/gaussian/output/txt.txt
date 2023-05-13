@@ -1,0 +1,36 @@
+FOR GAUSSIAN: 
+
+Processing ba1.c...
+Info in <TCanvas::MakeDefCanvas>:  created default TCanvas with name c1;
+
+ FCN=2.17392 FROM MIGRAD    STATUS=CONVERGED      68 CALLS          69 TOTAL
+                     EDM=2.15094e-08    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.37648e+01   3.06757e+00   2.08963e-03  -7.62383e-05
+   2  p1           2.60918e+00   2.35338e-01   1.81942e-04  -3.68739e-04
+   3  p2           1.77346e+00   2.07740e-01   1.28941e-04  -1.27025e-03
+root [1] .x ba10.c
+ FCN=2.17434 FROM MIGRAD    STATUS=CONVERGED      69 CALLS          70 TOTAL
+                     EDM=2.60569e-09    STRATEGY= 1  ERROR MATRIX UNCERTAINTY   2.7 per cent
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.76212e+01   4.04138e+00   2.89920e-03   2.35830e-05
+   2  p1           2.23069e+01   4.70514e-01  -7.60595e-04   7.69133e-05
+   3  p2           4.20339e+00   5.27660e-01  -3.70770e-05   2.55686e-04
+root [2] .x cs1.c
+ FCN=9.01702 FROM MIGRAD    STATUS=CONVERGED      72 CALLS          73 TOTAL
+                     EDM=4.97479e-07    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.97747e+01   4.62412e+00   4.82375e-03  -8.14745e-05
+   2  p1           9.71585e+00   3.07263e-01   3.84570e-04  -8.33610e-04
+   3  p2           2.32809e+00   2.75005e-01   2.58800e-04  -3.89379e-03
+root [3] .x cs10.c
+ FCN=8.20399 FROM MIGRAD    STATUS=CONVERGED     141 CALLS         142 TOTAL
+                     EDM=1.07573e-11    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.27322e+01   3.20644e+00   3.51450e-03  -1.50698e-06
+   2  p1           1.01865e+02   1.21229e+00   1.72445e-03   2.02815e-06
+   3  p2           1.06106e+01   1.10875e+00   1.18958e-03  -3.94745e-06

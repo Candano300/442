@@ -1,0 +1,87 @@
+
+------------------------------------------------------------------------------
+
+15kV
+
+
+****************************************
+Minimizer is Minuit / Migrad
+Chi2                      =      5.50454
+NDf                       =            6
+Edm                       =  6.99549e-21
+NCalls                    =           41
+p0                        =      1037.05   +/-   153.28      
+p1                        =      -81.666   +/-   12.4816     
+
+Approximate value of Planck's constant: 6.30773e-34
+Actual value of Planck's constant: 6.626e-34
+
+------------------------------------------------------------------------------
+
+18kV
+
+ FCN=41.8981 FROM MIGRAD    STATUS=CONVERGED      38 CALLS          39 TOTAL
+                     EDM=4.67553e-19    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.39467e+03   1.20992e+02   1.55555e-02  -5.70974e-12
+   2  p1          -1.58505e+02   8.35753e+00   1.07449e-03   3.30641e-11
+
+Approximate value of Planck's constant: 6.36225e-34
+Actual value of Planck's constant: 6.626e-34
+
+------------------------------------------------------------------------------
+
+21kV
+
+ FCN=59.5916 FROM MIGRAD    STATUS=CONVERGED      33 CALLS          34 TOTAL
+                     EDM=3.71671e-18    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           2.76923e+03   1.07464e+02   2.39009e-02  -4.21404e-10
+   2  p1          -1.53887e+02   6.38966e+00   1.42111e-03  -6.97486e-09
+
+Approximate value of Planck's constant: 6.23166e-34
+Actual value of Planck's constant: 6.626e-34
+
+------------------------------------------------------------------------------
+
+24kV
+
+ FCN=238.035 FROM MIGRAD    STATUS=CONVERGED      34 CALLS          35 TOTAL
+                     EDM=6.06295e-19    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           5.66371e+03   1.01609e+02   7.37216e-02  -1.11803e-10
+   2  p1          -2.90300e+02   5.89840e+00   4.27954e-03  -1.89277e-09
+
+Approximate value of Planck's constant: 6.56898e-34
+Actual value of Planck's constant: 6.626e-34
+
+------------------------------------------------------------------------------
+
+27kV
+
+ FCN=50.1862 FROM MIGRAD    STATUS=CONVERGED      34 CALLS          35 TOTAL
+                     EDM=8.44109e-20    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           4.78392e+03   1.33349e+02   4.43967e-02   2.68074e-11
+   2  p1          -2.06793e+02   6.96160e+00   2.31777e-03   5.44149e-10
+
+Approximate value of Planck's constant: 6.23241e-34
+Actual value of Planck's constant: 6.626e-34
+
+------------------------------------------------------------------------------
+
+30kV
+
+ FCN=12.3275 FROM MIGRAD    STATUS=CONVERGED      35 CALLS          36 TOTAL
+                     EDM=7.9035e-19    STRATEGY= 1      ERROR MATRIX ACCURATE 
+  EXT PARAMETER                                   STEP         FIRST   
+  NO.   NAME      VALUE            ERROR          SIZE      DERIVATIVE 
+   1  p0           5.79943e+03   3.32306e+02   3.78559e-02   5.23204e-11
+   2  p1          -2.17742e+02   1.56685e+01   1.78495e-03   1.06983e-09
+
+Approximate value of Planck's constant: 6.01476e-34
+Actual value of Planck's constant: 6.626e-34
